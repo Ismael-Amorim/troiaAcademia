@@ -5,9 +5,13 @@ body {
 }
 
 #logo img {
-    width: 21rem;
+    width: 22rem;
     /*margin-left: 25%;*/
     text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 button {
@@ -19,6 +23,7 @@ button {
     background: #fff;
     transition: all 0.1s linear;
     box-shadow: 0 0.4em 0.5em rgba(0, 0, 0, 0.1);
+    text-align: center;
 
 }
 
@@ -59,7 +64,7 @@ button:hover .border {
 
 #opcoes button {
     background-color: #ED7D31;
-    margin-left: 7rem;
+    display: flex;
 
 }
 
