@@ -12,13 +12,15 @@ body {
 }
 
 #logo img {
-    width: auto;
+    width: 11rem;
+    text-align: center;
 }
 
 .boas-vindas {
     text-align: center;
     font-family: 'Berlin Sans FB';
     font-size: 1.2rem;
+    text-align: center;
 }
 
 button {
@@ -44,6 +46,7 @@ button span {
     font-family: 'Calibri';
     font-weight: bold;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 button .border {
@@ -70,19 +73,17 @@ button:hover .border {
 
 #dias-semana button {
     background-color: #ED7D31;
-    margin-left: 6rem;
     margin-top: 1rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .footer button {
     background-color: #ED7D31;
-    margin-left: 6rem;
-    margin-top: 5rem;
+    margin-top: 1.8rem;
     height: 1rem;
     display: flex;
     justify-content: center;
-    text-align: end;
 }
 
 .footer span {
