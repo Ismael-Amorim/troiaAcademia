@@ -69,7 +69,8 @@ button:hover .border {
 }
 
 #opcoes input {
-    margin: 2rem;
+    display: block;
+    margin: 0 auto;
     border: 0.15em solid #fff;
     border-radius: 2em;
     text-align: center;
