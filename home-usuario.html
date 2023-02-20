@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="home-usuario.css">
+    <link rel="stylesheet" href="treinos.css">
+    <script defer src="/js/script.js"></script>
 </head>
 
 <body>
@@ -19,10 +21,52 @@
         <span>Selecione o dia da semana:</span>
     </div>
     <div id="dias-semana">
-        <button class="full-rounded">
-              <a href="treino-a.html" target="_self"><span>Segunda</span>
+        <!--<a href="treino-a.html">--><button id="esconder-mostrar" class="full-rounded">
+            <span>Segunda</span>
             <div class="border full-rounded"></div>
-        </button></a>
+        </button><!--</a>-->
+        <div class="container">
+            <div id="treino-a">
+                <div class="treino1">
+                    <div class="acao1">
+                        <div id="foto-acao1">
+                            <img src="/img/puxada-de-frente.png" alt="">
+                        </div>
+                        <div>
+                            <span>Puxada de frente</span>
+                            <input type="checkbox" value=""><br>
+                            <span id="series">3 séries, </span>
+                            <span id="repeticoes">12 repetições</span>
+                        </div>
+                    </div><br>
+                    <div class="acao2">
+                        <div id="foto-acao2">
+                            <img src="/img/puxada-de-frente.png" alt="">
+                        </div>
+                        <div>
+                            <span>Puxada de frente</span>
+                            <input type="checkbox" value=""><br>
+                            <span id="series">3 séries, </span>
+                            <span id="repeticoes">12 repetições</span>
+                        </div>
+                    </div><br>
+                    <div class="acao3">
+                        <div id="foto-acao3">
+                            <img src="/img/puxada-de-frente.png" alt="">
+                        </div>
+                        <div>
+                            <span>Puxada de frente</span>
+                            <input type="checkbox" value=""><br>
+                            <span id="series">3 séries, </span>
+                            <span id="repeticoes">12 repetições</span>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
         <button class="full-rounded">
             <span>Terça</span>
             <div class="border full-rounded"></div>
@@ -49,6 +93,7 @@
                 <span>Sair</span>
                 <div class="border full-rounded"></div>
             </button></a>
+
     </div>
 </body>
 
